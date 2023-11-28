@@ -74,3 +74,45 @@ button:hover{
     margin-top: 2vh;
     font-weight: bolder;
 }
+.introduction{
+    width: 93%;
+    height: 40%;
+    display: flex;
+    background: blue;
+    border: 3px solid yellow;
+    border-radius: 6vh;
+    box-shadow: 10px 10px 10px 2px rgba(0,0,0,.8);
+    padding-left: 6vw;
+}
+nav ul li{
+    list-style: none;
+    margin-top: 2vh;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+    /* padding: 2vh 2vw ; */
+    /* margin-left: 3vw; */
+    border: 4px solid red;
+    border-radius: 2vh;
+    background: yellow;
+    margin-left: 4vw;
+}
+.heading{
+    background: yellow;
+    border: 6px solid red;
+    border-radius: 2vh;
+    font-size: 100%;
+}
+nav ul li a:hover{
+    background: red;
+    border: 4px solid yellow ;
+    cursor: pointer;
+    transition: .2s;
+    box-shadow: 10px 10px 10px 2px rgba(0,0,0,.8);
+}
+.introductionBox{
+    background: lightblue;
+}
+
