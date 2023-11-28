@@ -337,7 +337,7 @@ const quiz = () =>{
 }
 quiz();
 function resultt() {
-    answer.innerHTML = 'Correct answer is: ' + quizQuestions[randomIndex].correctAnswer
+    answer.innerHTML = 'Correct answer:</br>' + quizQuestions[randomIndex].correctAnswer
 
 }
 function counting() {
